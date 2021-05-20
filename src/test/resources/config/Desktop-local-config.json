@@ -1,0 +1,11 @@
+{
+    "browserName":"chrome",
+    "generateScreenShots": "true",
+    "driverType":"webDriver",
+    "localExecution": "true",
+    "retryTestingCount": "1",
+    "hubUrl": "http://localhost:5555/wd/hub",
+    "url":"http://automationpractice.com/"
+}
+
+ 

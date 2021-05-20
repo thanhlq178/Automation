@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="12" verbose="1" name="automation_test_report" parallel="tests"
+       preserve-order="true" skipfailedinvocationcounts="true">
+
+    <listeners>
+        <listener class-name="utilities.listeners.SuiteListener" />
+        <listener class-name="utilities.listeners.TestListener" />
+    </listeners>
+
+    <parameter name="configfile" value="\config\Desktop-local-config.json" />
+
+    <test name="Shopping">
+   
+        <!-- test parameters -->
+        <classes>
+            <class name="TestCase.Test01">
+            </class>
+        </classes>
+    </test>
+ </suite>
